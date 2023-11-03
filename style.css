@@ -1,0 +1,620 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: Oddlini;
+    src: url(Fonts/oddlini-extrabold-expanded.ttf);
+}
+@media (min-width: 0px) { 
+    .nav-container{
+        text-align: center;
+    }
+    .banner{
+        display: none;
+    }
+   .logo{
+    font-family: Oddlini;
+    font-size: 1.2rem;
+    padding: 10% 0 5% 0;
+   }
+   
+    a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+   }
+   a:hover{
+    color: rgb(210, 102, 30);
+   }
+   li{
+    padding-bottom: 4%;
+   }
+   .ul-menu{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    padding-bottom: 5%;
+   }
+   .Mini-img{
+    height: 14rem;
+    width: 14rem;
+    padding-bottom: 10%;
+   }
+   .banner-Mini-title{
+    padding-bottom: 10%;
+    font-size: 1.5rem;
+    color: rgb(58, 58, 58);
+   }
+   .mini-title-word{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(210, 72, 30);
+    border-radius: 0.5rem;
+   }
+   .banner-mini-descriptiontab{
+    display: none;
+   }
+   .banner-mini-description{
+      font-family: 'Poppins', sans-serif;
+      color: rgb(107, 107, 107);
+      padding-bottom: 15%;
+   }
+   .mini-description{
+    padding-bottom: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 14px;
+   }
+   .mini-btn{
+    height: 3rem;
+    width: 8rem;
+    border: 1px solid transparent;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+    background-color: rgb(243, 141, 68);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(43, 43, 43);
+   }
+   .mini-btn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(63, 63, 63);
+   }
+
+
+
+
+   .about-us-title{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 15% 0 15% 0;
+    font-family: 'Poppins', sans-serif;
+   }
+   .about{
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    padding-bottom: 10%;
+    background-image: url("background.png");
+    background-position: center;
+   }
+   .about-container{
+    padding-left: 8%;
+    padding-right: 8%;
+   }
+   .about-us-img{
+    height: 10rem;
+    width: 10rem;
+    padding-bottom: 10%;
+   }
+   .about-description-title{
+    color: rgb(172, 172, 172);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 5%;
+   }
+   .about-description{
+    color: rgb(148, 148, 148);
+    padding-bottom: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+   }
+   .about-btn{
+    height: 2.5rem;
+    width: 8rem;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+   }
+   .about-btn:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+   }
+ }
+ @media (min-width: 425px) { 
+   .banner-Mini{
+    margin: 3rem;
+   }
+   .ul-menu{
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 10%;
+    font-size: 0.8rem;
+   }
+
+
+
+
+ }
+@media (min-width: 640px) { 
+   
+ }
+@media (min-width: 768px) { 
+   .banner-Mini{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 10%;
+    height: 30rem;
+    margin-left: -1px;
+    margin-bottom: -2%;
+   }
+   a{
+    color: rgb(218, 218, 218);
+    padding-bottom: 20%;
+    display: flex;
+    padding-left: 15%;
+   }
+   .li{
+    
+   }
+   .ul-menu{
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.658);
+    width: 8rem;
+    height: 18rem;
+    padding-top: 40%;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+   }
+   .logo{
+    padding-bottom: 0;
+    font-size: 2rem;
+   }
+   .banner-Mini-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+   }
+   .banner-Mini-title{
+    text-align: left;
+    gap: 2rem;
+    font-size: 3.5rem;
+    padding-left: 4%;
+    padding-bottom: 0%;
+   }
+   .Mini-img{
+    height: 22rem;
+    width: 18rem;
+    padding-bottom: 0%;
+   }
+   .mini-title-word{
+    font-size: 3.6rem;
+   }
+
+   .banner-mini-description{
+    display: none;
+   }
+   .banner-mini-descriptiontab{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+      color: rgb(107, 107, 107);
+      padding-bottom: 15%;
+   }
+  
+   .mini-descriptiontab{
+    padding-bottom: 5%;
+   }
+   .mini-btntab{
+    height: 3rem;
+    width: 8rem;
+    border: 1px solid transparent;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+    background-color: rgb(243, 141, 68);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(43, 43, 43);
+   }
+   .mini-btntab:hover{
+    background-color: transparent;
+    border: 2px solid rgb(63, 63, 63);
+   }
+
+
+
+   .about-us-img{
+    height: 16rem;
+    width:  16rem;
+    padding-bottom: 10%;
+   }
+   .about-description-title{
+    color: rgb(172, 172, 172);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 5%;
+   }
+   .about-description{
+    color: rgb(148, 148, 148);
+    padding-bottom: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+   }
+   .about-btn{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1rem;
+   }
+
+ }
+@media (min-width: 1024px) { 
+    .banner{
+        display: block;
+        padding: 0;
+        
+        
+    }
+   .banner{
+    display: flex;
+    justify-content: space-between;
+   }
+   .banner-Max{
+    padding-left: 8%;
+    
+   }
+  .banner-Mini-img{
+    display: none;
+ }
+  .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-top: -12rem;
+    
+  }
+  .logo{
+    padding: 0 0 0 8%;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .ul-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    padding: 0 16rem 0 0;
+    gap: 2rem;
+    margin: -11rem;
+  }
+  a{
+    padding: 0;
+    color: rgb(148, 148, 148);
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  a:hover{
+    text-decoration: underline;
+   }
+  .banner-Max-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -12rem;
+    padding: 0 4rem 0rem 8%;
+    height: 40rem;
+  }
+  
+  .Max-img{
+    height: 24rem;
+    width: 24rem;
+  }
+  .Max-description{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 5%;
+  }
+  .banner-Max-title{
+    font-size: 2.5rem;
+    color: rgb(58, 58, 58);
+    padding-bottom: 5%;
+  }
+  .max-title-word{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(210, 72, 30);
+    
+  }
+  .Max-btn{
+    height: 3rem;
+    width: 8rem;
+    border: 1px solid transparent;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+    background-color: rgb(243, 141, 68);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(43, 43, 43);
+  }
+  .Max-btn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(63, 63, 63);
+  }
+  .banner-mini-descriptiontab{
+    display: none;
+   }
+
+
+
+
+
+   .about-flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+
+   }
+   .about-text-portion{
+    text-align: left;
+   }
+   .about{
+    margin-right: -2rem;
+    padding-bottom: 8%;
+   }
+   .about-us-img{
+    height: 18rem;
+    width:  18rem;
+    padding-bottom: 0%;
+   }
+
+   .about-us-title{
+    font-size: 2.5rem;
+    padding-top: 12%;
+    padding-bottom: 10%;
+   }
+
+   .about-description-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 5%;
+   }
+   .about-description{
+    color: rgb(148, 148, 148);
+    padding-bottom: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+   }
+   .about-btn{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1rem;
+   }
+ }
+@media (min-width: 1280px) { 
+
+ }
+ @media (min-width: 1440px) { 
+    .logo{
+    padding: 1% 0 0 8%;
+    font-size: 2rem;
+  }
+ 
+  .ul-menu{
+    padding: 0.5rem 20rem 0 0;
+    gap: 3rem;
+  }
+  a{
+    padding: 0;
+    font-size: 1rem;
+
+  }
+
+   .banner-Max-img{
+    padding: 0 9rem 0rem 8%;
+  }
+  .banner{
+  margin-top: 5%;
+ }
+ .banner-Max-title{
+    font-size: 3rem;
+  }
+
+
+
+
+  .about-us-img{
+    height: 24rem;
+    width:  24rem;
+   }
+
+   .about-flex-container{
+    gap: 5rem;
+   }
+   .about-container{
+    padding-left:  12%;
+    padding-right: 12%;
+   }
+ }
+@media (min-width: 1736px) { 
+   
+  .about-us-img{
+    height: 28rem;
+    width:  28rem;
+   }
+
+ }
+/*@media (min-width: 1800px) { 
+     .nav-container{
+    margin-top: -10rem;
+    }
+    .logo{
+    padding: 1.5rem 0 0 8%;
+    font-size: 3rem;
+  }
+  .ul-menu{
+    padding: 0 32rem 0 0;
+    gap: 6rem;
+  }
+  a{
+    padding: 0;
+    font-size: 1.5rem;
+  }
+
+  .banner-Max-img{
+    padding: 6rem 13rem 0rem 8%;
+  }
+  .Max-img{
+    height: 35rem;
+    width: 35rem;
+  }
+ .banner{
+  margin-top: 10%;
+ }
+    .Max-description{
+    font-size: 1.5rem;
+  }
+  .banner-Max-title{
+    font-size: 4.5rem;
+    color: rgb(58, 58, 58);
+    padding-bottom: 5%;
+  }
+  .max-title-word{
+    font-size: 2.5rem;
+    border-radius: 0.5rem;
+  }
+  .Max-btn{
+    height: 6rem;
+    width: 18rem;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+  }
+  .Max-btn:hover{
+    border: 3px solid rgb(63, 63, 63);
+  }
+
+ }*/
+
+ @media (min-width: 2560px) { 
+    .nav-container{
+    margin-top: -10rem;
+    }
+    .logo{
+    padding: 1.5rem 0 0 8%;
+    font-size: 3rem;
+  }
+  .ul-menu{
+    padding: 0 32rem 0 0;
+    gap: 6rem;
+  }
+  a{
+    padding: 0;
+    font-size: 1.5rem;
+  }
+
+  .banner-Max-img{
+    padding: 0 13rem 0rem 8%;
+  }
+  .Max-img{
+    height: 50rem;
+    width: 50rem;
+  }
+ .banner{
+  margin-top: 10%;
+  padding-top: 8%;
+  padding-bottom: 10%;
+ }
+    .Max-description{
+    font-size: 1.5rem;
+  }
+  .banner-Max-title{
+    font-size: 4.5rem;
+    color: rgb(58, 58, 58);
+    padding-bottom: 5%;
+  }
+  .max-title-word{
+    font-size: 2.5rem;
+    border-radius: 0.5rem;
+  }
+  .Max-btn{
+    height: 6rem;
+    width: 18rem;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+  }
+  .Max-btn:hover{
+    border: 3px solid rgb(63, 63, 63);
+  }
+  
+
+
+  .about-flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
+   }
+   .about-text-portion{
+    text-align: left;
+   }
+   .about{
+    margin-right: -2rem;
+    padding-bottom: 8%;
+   }
+   .about-us-img{
+    height: 38rem;
+    width:  38rem;
+    padding-bottom: 0%;
+   }
+
+   .about-us-title{
+    font-size: 3.5rem;
+    padding-top: 12%;
+    padding-bottom: 10%;
+   }
+
+   .about-description-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 5%;
+   }
+   .about-description{
+    color: rgb(148, 148, 148);
+    padding-bottom: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+   }
+   .about-btn{
+    height: 5rem;
+    width: 18rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+   }
+
+ }
